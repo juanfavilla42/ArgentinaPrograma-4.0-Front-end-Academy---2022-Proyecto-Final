@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: beige;
+}
+header,section{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#foto_perfil{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+#nombre_apellido_puesto{
+    background-color: beige;
+    text-align: center;
+}
+#btn nav ul{
+    background-color:aqua;
+    display: flex;
+    justify-content: space-around;
+}
+#btn nav ul li {
+    list-style-type: none;
+}
+#btn nav ul li a{
+    text-decoration: none;
+}
+.caja-1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.caja-1 img{
+    margin-top: 10px;
+    width: 50%;
+}
+@media (max-width: 800px) {
+    #foto_perfil{
+        height: 250px;
+    }
+    #nombre_apellido_puesto{
+        height: 150px;
+    }
+    h1,h2{
+        font-size: 50px;
+    }
+    #btn nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    #btn nav ul li a{
+        font-size: 40px;
+    }
+    .caja-1{
+        width: 960px;
+    }
+    .caja-1 img{
+        width: 700px;
+    }
+    .text{
+        font-size: 50px;
+    }
+    #btn1,#btn2{
+        font-size: 35px;
+    }
+}
